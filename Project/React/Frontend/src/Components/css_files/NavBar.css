@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #f0634a;
+    --second-color: #ffac38;
+    --text-color: #444;
+    --gradient: linear-gradient(#f0634a, #ffac38);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 100px;
+}
+
+.navbar {
+    height: 90px;
+     background-color:white rgb(199, 199, 199); 
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    width: 140px;
+    height: 140px;
+}
+.navbar .logo img {
+    height: 100%;
+}
+
+.navbar .options {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    position: relative;
+}
+
+.navbar .options a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 18px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .options a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: var(--main-color);
+    transition: width 0.4s ease;
+}
+
+.navbar .options a:hover::after {
+    width: 100%; 
+}
