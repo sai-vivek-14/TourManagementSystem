@@ -1,0 +1,74 @@
+.profile-container {
+    padding: 30px;
+    background-color: azure;
+    width: 100%;
+    height: 100vh;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container label{
+    font-size: larger;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 900px; 
+}
+
+
+
+.myprofile {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.user_information {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.user_information label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user_information input {
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+.user_information input:read-only {
+    background-color: #e9ecef;
+    color: #555;
+}
+
+.trips h1 {
+    font-weight: 900;
+    margin-top: 20px;
+}

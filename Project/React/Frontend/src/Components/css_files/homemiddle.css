@@ -1,0 +1,76 @@
+.middle-part {    
+    padding: 100px 50px; 
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./asset2.jpg);
+    border-radius: 3%;
+}
+
+@media (min-width: 1024px) {
+    .middle-part {
+        padding: 150px;
+    }
+    .motivate1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .middle-part {
+        padding: 100px;
+    }
+    .motivate1 {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .middle-part {
+        padding: 50px;
+    }
+    .motivate1 {
+        font-size: 1.2rem;
+    }
+    .middle_buttons {
+        padding: 20px 50px;
+    }
+    .middle-part button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+.motivate1 {
+    padding: 50px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.motivate1 s {
+    font-size: 3rem;
+    background-color: aliceblue;
+    color: yellow;
+}
+
+.middle_buttons {
+    padding: 30px 100px;
+}
+
+.middle-part button {
+    padding: 15px 30px;
+    border-radius: 5%;
+    font-size: 1rem;
+    background-color: navy;
+    color: white;
+    font-weight: 700;
+}
+
+.middle-part button:hover {
+    background-color: white;
+    color: black;
+}
